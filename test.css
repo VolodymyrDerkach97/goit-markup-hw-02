@@ -1,0 +1,7 @@
+.social-links .link {
+    color: teal;
+  }
+  
+  .social-links .link:focus {
+    color: orange;
+  }

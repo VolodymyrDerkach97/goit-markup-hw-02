@@ -1,0 +1,64 @@
+:root {
+   --title-text-color: #212121;
+   --accent-color: #2196F3;
+   --primary-white-color: #FFFFFF;
+   --primaty-text-color: #757575;
+   --title-text-color: #212121;
+
+
+}
+
+body {
+    background-color: #FFFFFF;
+    color: var(--primaty-text-color);
+}
+
+/* Хедер */
+.logo-web{
+    color: #2196F3; 
+}
+
+.logo-studio{
+    color: #000000;   
+}
+.navigation a {
+    color: var(--title-text-color);
+
+
+}
+.navigation :hover,
+.navigation :focus {
+    color: var(--accent-color); 
+}
+.contacts a {
+color: var(--primaty-text-color); 
+}
+
+.contacts :hover,
+.contacts :focus {
+    color: var(--accent-color); 
+} 
+/* Мейн */
+
+.hero{
+    background-color: #2F303A; 
+}
+
+.hero > h1 {
+    color: var(--primary-white-color); 
+}
+
+.hero > button{
+    background-color: var(--accent-color); 
+    color: var(--primary-white-color);     
+}
+
+
+
+
+/* Футер */
+.background-footer{
+    background-color: #2F303A; 
+}
+
+.
