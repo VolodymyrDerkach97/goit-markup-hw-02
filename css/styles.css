@@ -13,7 +13,14 @@ body {
     color: var(--primaty-text-color);
 }
 
-/* Хедер */
+h1,h2,h3{
+    color: var(--title-text-color); 
+}
+
+
+/* CSS для Index.html */
+
+/* Хедер index.html і portfilio.html*/
 .logo-web{
     color: #2196F3; 
 }
@@ -56,9 +63,32 @@ color: var(--primaty-text-color);
 
 
 
-/* Футер */
-.background-footer{
+/* Футер index.html і portfilio.html*/
+.footer{
     background-color: #2F303A; 
 }
 
-.
+.logo-web-footer{
+    color: #2196F3; 
+}
+
+.logo-studio-footer{
+    color: #FFFFFF; 
+}
+
+.footer-address a {
+    color: var(--primaty-text-color);
+
+}
+
+.footer-address a:focus,
+.footer-address a:hover{
+    color: var(--accent-color);
+}
+
+/* CSS для portfolio.html */
+
+.portfolio-button :hover{
+    color: #FFFFFF;
+
+}
