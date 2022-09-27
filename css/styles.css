@@ -1,7 +1,7 @@
 :root {
    --title-text-color: #212121;
-   --accent-color: #2196F3;
-   --primary-white-color: #FFFFFF;
+   --accent-color: #2196f3;
+   --primary-white-color: #ffffff;
    --primaty-text-color: #757575;
    --title-text-color: #212121;
 
@@ -9,20 +9,18 @@
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: var(--primaty-text-color);
 }
 
-h1,h2,h3{
-    color: var(--title-text-color); 
-}
+
 
 
 /* CSS для Index.html */
 
 /* Хедер index.html і portfilio.html*/
 .logo-web{
-    color: #2196F3; 
+    color: #2196f3; 
 }
 
 .logo-studio{
@@ -33,31 +31,39 @@ h1,h2,h3{
 
 
 }
-.navigation :hover,
-.navigation :focus {
+.navigation a:hover,
+.navigation a:focus {
     color: var(--accent-color); 
 }
 .contacts a {
 color: var(--primaty-text-color); 
 }
 
-.contacts :hover,
-.contacts :focus {
+.contacts a:hover,
+.contacts a:focus {
     color: var(--accent-color); 
 } 
 /* Мейн */
-
+/* фон герою додав щоб було видно заголовок */
 .hero{
-    background-color: #2F303A; 
+    background-color: #2f303a; 
 }
 
-.hero > h1 {
+
+.hero-title {
     color: var(--primary-white-color); 
 }
 
-.hero > button{
+.hero-button{
     background-color: var(--accent-color); 
     color: var(--primary-white-color);     
+}
+
+.hero-button:hover {
+    color: #000000
+}
+.hero-button:focus {
+    color: #000000
 }
 
 
@@ -65,15 +71,15 @@ color: var(--primaty-text-color);
 
 /* Футер index.html і portfilio.html*/
 .footer{
-    background-color: #2F303A; 
+    background-color: #2f303a; 
 }
 
 .logo-web-footer{
-    color: #2196F3; 
+    color: #2196f3; 
 }
 
 .logo-studio-footer{
-    color: #FFFFFF; 
+    color: #ffffff; 
 }
 
 .footer-address a {
@@ -89,6 +95,6 @@ color: var(--primaty-text-color);
 /* CSS для portfolio.html */
 
 .portfolio-button :hover{
-    color: #FFFFFF;
+    color: ##ffffff;
 
 }
