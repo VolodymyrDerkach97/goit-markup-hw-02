@@ -1,7 +1,3 @@
-.social-links .link {
-    color: teal;
-  }
-  
-  .social-links .link:focus {
-    color: orange;
-  }
+footer {
+  background-color: #333333; 
+}
