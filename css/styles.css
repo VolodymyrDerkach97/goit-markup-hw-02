@@ -5,8 +5,14 @@
    --primaty-text-color: #757575;
    --title-text-color: #212121;
 
-
 }
+/* /* background team: #f5f4fa;  */
+
+.list {
+list-style: none;
+}
+
+
 
 body {
     background-color: #ffffff;
@@ -26,21 +32,21 @@ body {
 .logo-studio{
     color: #000000;   
 }
-.navigation a {
+.site-nav-link {
     color: var(--title-text-color);
 
 
 }
-.navigation a:hover,
-.navigation a:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
     color: var(--accent-color); 
 }
-.contacts a {
+.contacts-link {
 color: var(--primaty-text-color); 
 }
 
-.contacts a:hover,
-.contacts a:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: var(--accent-color); 
 } 
 /* Мейн */
@@ -51,7 +57,7 @@ color: var(--primaty-text-color);
 
 
 .hero-title {
-    color: var(--primary-white-color); 
+    color: #ffffff; 
 }
 
 .hero-button{
@@ -59,14 +65,27 @@ color: var(--primaty-text-color);
     color: var(--primary-white-color);     
 }
 
-.hero-button:hover {
-    color: #000000
-}
+.hero-button:hover,
 .hero-button:focus {
     color: #000000
 }
 
+.advantages-secondary-title {
+    color: var(--title-text-color);
+}
 
+
+.employment-primary-title {
+    color: var(--title-text-color);
+}
+
+.team-primary-title {
+    color: var(--title-text-color);
+}
+
+.team-secondary-title {
+    color: var(--title-text-color);
+}
 
 
 /* Футер index.html і portfilio.html*/
@@ -82,16 +101,13 @@ color: var(--primaty-text-color);
     color: #ffffff; 
 }
 
-.footer-address a {
-    color: var(--primaty-text-color);
-
+.footer-maps-link {
+    color: #ffffff;
 }
 
-.footer-address a:focus,
-.footer-address a:hover{
-    color: var(--accent-color);
+.footer-contact-link {
+    color: #757575;
 }
-
 /* CSS для portfolio.html */
 
 .portfolio-button :hover{
