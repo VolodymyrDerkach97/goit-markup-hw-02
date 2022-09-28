@@ -12,12 +12,26 @@
 list-style: none;
 }
 
+.visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  }
+
 
 
 body {
     background-color: #ffffff;
     color: var(--primaty-text-color);
 }
+
 
 
 
@@ -40,6 +54,10 @@ body {
 .site-nav-link:hover,
 .site-nav-link:focus {
     color: var(--accent-color); 
+}
+
+.site-nav-link.current {
+    color: var(--accent-color);
 }
 .contacts-link {
 color: var(--primaty-text-color); 
@@ -67,8 +85,12 @@ color: var(--primaty-text-color);
 
 .hero-button:hover,
 .hero-button:focus {
-    color: #000000
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
+
+
 
 .advantages-secondary-title {
     color: var(--title-text-color);
@@ -108,9 +130,32 @@ color: var(--primaty-text-color);
 .footer-contact-link {
     color: #757575;
 }
+
+.footer-maps-link:hover,
+.footer-contact-link:hover {
+    color: var(--accent-color);
+}
+
+.footer-maps-link:focus,
+.footer-contact-link:focus {
+    color: var(--accent-color);
+}
 /* CSS для portfolio.html */
 
+.portfolio-button {
+    background: #f5F4fA;
+    border-radius: 4px;
+}
 .portfolio-button :hover{
-    color: ##ffffff;
+    color: #ffffff;
+    background: #2196f3;
+    /* shadow-middle */
+    
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    
+}
 
+.portfolio-title {
+    color: var(--title-text-color);
 }
