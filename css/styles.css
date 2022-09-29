@@ -260,7 +260,7 @@ body {
 }
 
 
-.portfolio-button :hover{
+.portfolio-button-filter:hover{
     color: #ffffff;
     background: #2196f3;
 
