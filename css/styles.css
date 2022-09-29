@@ -162,6 +162,10 @@ body {
 }
 
 /* Наша команда */
+
+.section-team {
+    background-color: #f5f4fA;;
+}
 .team-title {
     color: var(--title-text-color);
 
